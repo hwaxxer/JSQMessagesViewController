@@ -189,12 +189,6 @@ static NSMutableSet *jsqMessagesCollectionViewCellActions = nil;
 
     self.textViewFrameInsets = customAttributes.textViewFrameInsets;
 
-    // https://github.com/jessesquires/JSQMessagesViewController/issues/817
-    // Fix for layout issues
-    CGRect bounds = self.contentView.bounds;
-    bounds.size.height = [UIScreen mainScreen].bounds.size.height;
-    self.contentView.bounds = bounds;
-
     [self jsq_updateConstraint:self.messageBubbleContainerWidthConstraint
                   withConstant:customAttributes.messageBubbleContainerViewWidth];
 
