@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 	s.name = 'JSQMessagesViewController'
   s.module_name = 'JSQMessagesViewController'
-	s.version = '7.2.5-tictail'
+	s.version = '7.2.6-tictail'
 	s.summary = 'An elegant messages UI library for iOS.'
 	s.homepage = 'http://jessesquires.github.io/JSQMessagesViewController'
 	s.license = 'MIT'
@@ -23,5 +23,5 @@ Pod::Spec.new do |s|
 	s.frameworks = 'QuartzCore', 'CoreGraphics', 'CoreLocation', 'MapKit', 'UIKit', 'Foundation'
 	s.requires_arc = true
 
-	s.dependency 'JSQSystemSoundPlayer', '~> 2.0.1'
+	#s.dependency 'JSQSystemSoundPlayer', '~> 2.0.1'
 end

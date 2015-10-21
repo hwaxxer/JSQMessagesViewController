@@ -16,6 +16,7 @@
 //  Released under an MIT license: http://opensource.org/licenses/MIT
 //
 
+/*
 #import "JSQSystemSoundPlayer+JSQMessages.h"
 
 #import "NSBundle+JSQMessages.h"
@@ -28,6 +29,7 @@ static NSString * const kJSQMessageSentSoundName = @"message_sent";
 @implementation JSQSystemSoundPlayer (JSQMessages)
 
 #pragma mark - Public
+
 
 + (void)jsq_playMessageReceivedSound
 {
@@ -73,3 +75,4 @@ static NSString * const kJSQMessageSentSoundName = @"message_sent";
 }
 
 @end
+*/
